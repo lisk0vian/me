@@ -1,0 +1,25 @@
+{
+  "display": {
+    "family": "Familjen Grotesk",
+    "file": "C:\\Users\\Aron\\.cache\\brand-identity\\fonts\\instances\\FamiljenGrotesk-2dace34f1c2b1504.ttf",
+    "location": {
+      "wght": 700
+    },
+    "weights": [
+      700
+    ],
+    "features": []
+  },
+  "text": {
+    "family": "Familjen Grotesk",
+    "file": "C:\\Users\\Aron\\.cache\\brand-identity\\fonts\\instances\\FamiljenGrotesk-bc3b0a0719bfa90b.ttf",
+    "location": {
+      "wght": 400
+    },
+    "weights": [
+      400,
+      600
+    ],
+    "features": []
+  }
+}

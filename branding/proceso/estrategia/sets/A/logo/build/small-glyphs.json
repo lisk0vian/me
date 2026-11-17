@@ -1,0 +1,79 @@
+{
+ "units": "symbol grid 0..100; index = position in data-glyphs (1-based)",
+ "symbol": [
+  {
+   "id": "monogram",
+   "text": "JA",
+   "location": {
+    "wght": 800,
+    "opsz": 96
+   },
+   "glyphs": [
+    {
+     "index": 1,
+     "char": "J",
+     "x0": 19.03,
+     "x1": 36.72,
+     "cap_top": 26.0,
+     "baseline": 68.0,
+     "stems": [
+      [
+       26.41,
+       36.72
+      ]
+     ],
+     "pen_x": 18.52,
+     "advance": 18.77
+    },
+    {
+     "index": 2,
+     "char": "A",
+     "x0": 37.55,
+     "x1": 78.97,
+     "cap_top": 26.0,
+     "baseline": 68.0,
+     "stems": [
+      [
+       43.17,
+       53.28
+      ],
+      [
+       63.12,
+       73.37
+      ]
+     ],
+     "pen_x": 37.29,
+     "advance": 41.94
+    }
+   ]
+  }
+ ],
+ "symbol-small": [
+  {
+   "id": "monogram",
+   "text": "J",
+   "location": {
+    "wght": 800,
+    "opsz": 96
+   },
+   "glyphs": [
+    {
+     "index": 1,
+     "char": "J",
+     "x0": 32.94,
+     "x1": 59.06,
+     "cap_top": 22.0,
+     "baseline": 84.0,
+     "stems": [
+      [
+       43.84,
+       59.06
+      ]
+     ],
+     "pen_x": 32.19,
+     "advance": 30.34
+    }
+   ]
+  }
+ ]
+}

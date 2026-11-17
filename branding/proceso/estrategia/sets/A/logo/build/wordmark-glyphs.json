@@ -1,0 +1,187 @@
+{
+ "units": "wordmark: cap height 100, cap top y=0, baseline y=100, x from the pen origin; index = data-glyph",
+ "text": "Jeremi Aron",
+ "glyphs": [
+  {
+   "index": 1,
+   "char": "J",
+   "x0": 1.21,
+   "x1": 43.33,
+   "pen_x": 0.0,
+   "advance": 48.64,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     18.79,
+     43.33
+    ]
+   ]
+  },
+  {
+   "index": 2,
+   "char": "e",
+   "x0": 50.45,
+   "x1": 125.87,
+   "pen_x": 47.12,
+   "advance": 81.67,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": []
+  },
+  {
+   "index": 3,
+   "char": "r",
+   "x0": 132.73,
+   "x1": 185.91,
+   "pen_x": 127.27,
+   "advance": 58.79,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     132.73,
+     157.76
+    ]
+   ]
+  },
+  {
+   "index": 4,
+   "char": "e",
+   "x0": 187.88,
+   "x1": 263.29,
+   "pen_x": 184.55,
+   "advance": 81.67,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": []
+  },
+  {
+   "index": 5,
+   "char": "m",
+   "x0": 270.15,
+   "x1": 390.3,
+   "pen_x": 264.7,
+   "advance": 130.3,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     270.15,
+     295.33
+    ],
+    [
+     318.18,
+     342.85
+    ],
+    [
+     365.76,
+     390.3
+    ]
+   ]
+  },
+  {
+   "index": 6,
+   "char": "i",
+   "x0": 396.67,
+   "x1": 425.61,
+   "pen_x": 393.48,
+   "advance": 35.45,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     398.94,
+     423.48
+    ]
+   ]
+  },
+  {
+   "index": 7,
+   "char": " ",
+   "x0": null,
+   "x1": null,
+   "pen_x": 427.42,
+   "advance": 30.76,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": []
+  },
+  {
+   "index": 8,
+   "char": "A",
+   "x0": 457.27,
+   "x1": 555.91,
+   "pen_x": 456.67,
+   "advance": 99.55,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     470.67,
+     494.74
+    ],
+    [
+     518.15,
+     542.58
+    ]
+   ]
+  },
+  {
+   "index": 9,
+   "char": "r",
+   "x0": 560.15,
+   "x1": 613.33,
+   "pen_x": 554.7,
+   "advance": 58.79,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     560.15,
+     585.19
+    ]
+   ]
+  },
+  {
+   "index": 10,
+   "char": "o",
+   "x0": 615.3,
+   "x1": 694.55,
+   "pen_x": 611.97,
+   "advance": 85.91,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     615.3,
+     640.15
+    ],
+    [
+     669.68,
+     694.55
+    ]
+   ]
+  },
+  {
+   "index": 11,
+   "char": "n",
+   "x0": 701.82,
+   "x1": 776.82,
+   "pen_x": 696.36,
+   "advance": 85.15,
+   "cap_top": 0,
+   "baseline": 100,
+   "stems": [
+    [
+     701.82,
+     726.96
+    ],
+    [
+     752.27,
+     776.82
+    ]
+   ]
+  }
+ ]
+}

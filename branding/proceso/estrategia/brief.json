@@ -1,0 +1,43 @@
+{
+  "schema": "brand-identity/brief@1",
+  "brand": "Jeremi Aron",
+  "tagline": "Full-stack developer building useful web apps.",
+  "site": null,
+  "languages": [
+    "en",
+    "es"
+  ],
+  "doc_lang": "es",
+  "numbers": false,
+  "components": {
+    "logo": "new",
+    "type": "new",
+    "palette": "new"
+  },
+  "sources": {},
+  "sets": 3,
+  "sector": "Desarrollo full-stack / software",
+  "audience": "Reclutadores tech y profesionales del sector",
+  "attributes": [
+    "práctico",
+    "creíble",
+    "constructor"
+  ],
+  "competitors": [
+    "portafolios genéricos de devs",
+    "perfiles de LinkedIn"
+  ],
+  "axes": [],
+  "copy": {
+    "sentence": {
+      "en": "I build useful web apps with JavaScript and TypeScript, and I'm open to remote and local full-stack roles.",
+      "es": "Construyo aplicaciones web útiles con JavaScript y TypeScript, y estoy abierto a roles full-stack remotos y locales."
+    },
+    "nav": [
+      "Work",
+      "About",
+      "Contact"
+    ],
+    "cta": "Get in touch"
+  }
+}

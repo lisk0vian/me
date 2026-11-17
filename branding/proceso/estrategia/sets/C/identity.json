@@ -1,0 +1,377 @@
+{
+  "schema": "brand-identity/identity@1",
+  "brand": {
+    "name": "Jeremi Aron",
+    "tagline": "Full-stack developer building useful web apps.",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "numbers": false,
+    "doc_lang": "es",
+    "sector": "Desarrollo full-stack / software",
+    "copy": {
+      "sentence": {
+        "en": "I build useful web apps with JavaScript and TypeScript, and I'm open to remote and local full-stack roles.",
+        "es": "Construyo aplicaciones web útiles con JavaScript y TypeScript, y estoy abierto a roles full-stack remotos y locales."
+      },
+      "nav": [
+        "Work",
+        "About",
+        "Contact"
+      ],
+      "cta": "Get in touch"
+    }
+  },
+  "components": {
+    "logo": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    },
+    "type": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    },
+    "palette": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    }
+  },
+  "palette": "palette.json",
+  "set": {
+    "id": "C",
+    "name": "Quipu",
+    "recommended": false,
+    "mechanism": "El quipu: cuerdas y nudos como sistema de registro; el mark es tres cuerdas con nudos, la humanista Fira y tintes naturales sobre verde profundo.",
+    "expression_move": "Las cuerdas anudadas son lo único que se recuerda.",
+    "differs_by": "Las marcas de devs son técnico-frías; esta trae un sistema de registro andino, humano y artesanal, sin bandera ni montaña."
+  },
+  "axes": {
+    "warm_cool": -1,
+    "classic_contemporary": -1,
+    "friend_authority": -1,
+    "quiet_loud": -2
+  },
+  "type": {
+    "pairing_mode": "single-family",
+    "display": {
+      "family": "Fira Sans",
+      "source": "google",
+      "license": "OFL-1.1",
+      "weights": [
+        700
+      ],
+      "location": {
+        "wght": 700
+      },
+      "features": [],
+      "case": "as-is",
+      "tracking": 0,
+      "fallback": "system-ui, sans-serif",
+      "file": null
+    },
+    "text": {
+      "family": "Fira Sans",
+      "source": "google",
+      "license": "OFL-1.1",
+      "weights": [
+        400,
+        600
+      ],
+      "location": {
+        "wght": 400
+      },
+      "features": [],
+      "case": "as-is",
+      "tracking": 0,
+      "fallback": "system-ui, sans-serif",
+      "file": null
+    },
+    "mono": null
+  },
+  "logo": {
+    "type": "symbol+wordmark",
+    "concept": "Tres cuerdas con nudos: un sistema de registro andino reducido a lo esencial.",
+    "symbol": "logo/symbol.svg",
+    "wordmark": {
+      "text": "Jeremi Aron",
+      "role": "display",
+      "location": null,
+      "tracking": -10,
+      "case": "as-is"
+    },
+    "monogram": null,
+    "lockups": [
+      "horizontal",
+      "stacked"
+    ],
+    "colors": {
+      "cords": "primary",
+      "knots": "accent",
+      "wordmark": "text"
+    },
+    "tags": [
+      "abstract-geometric"
+    ],
+    "clear_space": {
+      "unit": "cap-height",
+      "multiple": 1,
+      "inferred": true
+    },
+    "min_size": {
+      "px": 22,
+      "mm": 8
+    }
+  },
+  "palette_build": {
+    "strategy": null,
+    "accent": null,
+    "light_bg": "#E8E9E4",
+    "dark_bg": null,
+    "neutral_tint": null,
+    "neutral_chroma": null,
+    "extra": []
+  },
+  "card": {
+    "ground": "dark"
+  },
+  "defaults_used": [
+    {
+      "id": "terracotta-clay",
+      "why": "El rojo es cochinilla/madder de tintes andinos y se usa solo en los nudos, no como superficie."
+    }
+  ],
+  "rationale": [
+    {
+      "claim": "Fira humanista y cuerdas: un tono humano y artesanal que se aparta del dev frío.",
+      "evidence": "judgement",
+      "source": "brief"
+    },
+    {
+      "claim": "Verde profundo y hueso con un rojo de cochinilla: raíz local sin bandera ni montaña literal.",
+      "evidence": "judgement",
+      "source": "brief"
+    }
+  ],
+  "audit": {
+    "schema": "brand-identity/audit@1",
+    "passed": true,
+    "counts": {
+      "gate": 0,
+      "warn": 6,
+      "info": 5
+    },
+    "findings": [
+      {
+        "id": "palette.contrast.light.link-on-text",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 1.21,
+        "threshold": 3.0,
+        "message": "light: link #16302a on text #101f1b is 1.21:1, below 3.0:1 (links distinguishable from body text without underline (WCAG G183); WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.light.link",
+          "from": "#16302a",
+          "to": "#507068",
+          "how": "use primary-700 (same scale)",
+          "ratio_after": 3.13
+        },
+        "roles": [
+          "light.link",
+          "light.text"
+        ]
+      },
+      {
+        "id": "palette.cvd.light.deutan.success-danger",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 8.67,
+        "threshold": 10.0,
+        "message": "light: success and danger collapse to CIEDE2000 8.7 for deutanopia (#615616 vs #756b3d)",
+        "suggested_fix": {
+          "change": "modes.light.danger",
+          "from": "#b23041",
+          "to": "#b73545",
+          "how": "never carry meaning by colour alone (icon/label); or lighten by OKLCH L +0.02, same hue"
+        },
+        "roles": [
+          "light.success",
+          "light.danger"
+        ]
+      },
+      {
+        "id": "palette.cvd.light.protan.link-text",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 5.06,
+        "threshold": 10.0,
+        "message": "light: link and text collapse to CIEDE2000 5.1 for protanopia (#2e2d2a vs #1e1d1b)",
+        "suggested_fix": {
+          "change": "modes.light.text",
+          "from": "#101f1b",
+          "to": "#010b08",
+          "how": "never carry meaning by colour alone (icon/label); or darken by OKLCH L -0.09, same hue"
+        },
+        "roles": [
+          "light.link",
+          "light.text"
+        ]
+      },
+      {
+        "id": "palette.cvd.light.deutan.link-text",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 4.72,
+        "threshold": 10.0,
+        "message": "light: link and text collapse to CIEDE2000 4.7 for deutanopia (#2a2a2a vs #1b1b1b)",
+        "suggested_fix": {
+          "change": "modes.light.text",
+          "from": "#101f1b",
+          "to": "#000403",
+          "how": "never carry meaning by colour alone (icon/label); or darken by OKLCH L -0.13, same hue"
+        },
+        "roles": [
+          "light.link",
+          "light.text"
+        ]
+      },
+      {
+        "id": "palette.cvd.light.tritan.link-text",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 5.41,
+        "threshold": 10.0,
+        "message": "light: link and text collapse to CIEDE2000 5.4 for tritanopia (#1a2e35 vs #121e22)",
+        "suggested_fix": {
+          "change": "modes.light.text",
+          "from": "#101f1b",
+          "to": "#030f0c",
+          "how": "never carry meaning by colour alone (icon/label); or darken by OKLCH L -0.07, same hue"
+        },
+        "roles": [
+          "light.link",
+          "light.text"
+        ]
+      },
+      {
+        "id": "palette.cvd.dark.deutan.success-danger",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 9.9,
+        "threshold": 10.0,
+        "message": "dark: success and danger collapse to CIEDE2000 9.9 for deutanopia (#c1af51 vs #bbb085)",
+        "suggested_fix": {
+          "change": "modes.dark.danger",
+          "from": "#fe8188",
+          "to": "#ff838a",
+          "how": "never carry meaning by colour alone (icon/label); or lighten by OKLCH L +0.01, same hue"
+        },
+        "roles": [
+          "dark.success",
+          "dark.danger"
+        ]
+      },
+      {
+        "id": "palette.contrast.light.border-on-background",
+        "component": "palette",
+        "severity": "info",
+        "measured": 1.37,
+        "threshold": 3.0,
+        "message": "light: border #c7c9c0 on background #e8e9e4 is 1.37:1, below 3.0:1 (borders: dividers are exempt, input outlines need 3:1; WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.light.border",
+          "from": "#c7c9c0",
+          "to": "#84867e",
+          "how": "darken by OKLCH L -0.21, same hue",
+          "ratio_after": 3.02
+        },
+        "roles": [
+          "light.border",
+          "light.background"
+        ]
+      },
+      {
+        "id": "palette.contrast.dark.link-on-text",
+        "component": "palette",
+        "severity": "info",
+        "measured": 2.48,
+        "threshold": 3.0,
+        "message": "dark: link #81a39a on text #f1f4f3 is 2.48:1, below 3.0:1 (underline links in dark mode (WCAG G183: without underline a link needs 3:1 against body text); WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.dark.link",
+          "from": "#81a39a",
+          "to": "#66877e",
+          "how": "use primary-600 (same scale)",
+          "ratio_after": 3.56
+        },
+        "roles": [
+          "dark.link",
+          "dark.text"
+        ]
+      },
+      {
+        "id": "palette.contrast.dark.border-on-background",
+        "component": "palette",
+        "severity": "info",
+        "measured": 1.89,
+        "threshold": 3.0,
+        "message": "dark: border #354541 on background #06120f is 1.89:1, below 3.0:1 (borders: dividers are exempt, input outlines need 3:1; WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.dark.border",
+          "from": "#354541",
+          "to": "#697773",
+          "how": "use neutral-500 (same scale)",
+          "ratio_after": 4.07
+        },
+        "roles": [
+          "dark.border",
+          "dark.background"
+        ]
+      },
+      {
+        "id": "palette.harmony.primary-accent",
+        "component": "palette",
+        "severity": "info",
+        "measured": -0.69,
+        "threshold": -0.3,
+        "message": "Ou-Luo two-colour model scores #16302a + #b4472f at -0.69 (negative = less harmonious on a grey CRT test, no context): model signal only; the pairing table in references/pairing.md takes precedence",
+        "suggested_fix": null,
+        "roles": [
+          "light.primary",
+          "light.accent"
+        ]
+      },
+      {
+        "id": "type.display+text.web-weight",
+        "component": "type",
+        "severity": "info",
+        "measured": 25,
+        "threshold": null,
+        "message": "Fira Sans: ~25 KB WOFF2 for the brief's characters (per weight file; estimate)",
+        "suggested_fix": null
+      }
+    ],
+    "defaults": {
+      "matched": [
+        "terracotta-clay"
+      ]
+    }
+  },
+  "derived": [
+    {
+      "file": "card.png",
+      "requires": [
+        "logo",
+        "type",
+        "palette"
+      ],
+      "inputs_sha256": "ef83e45fc64158d390aa0870339f95d34989131cc4698749f1d5f083e36a1f9b"
+    }
+  ]
+}

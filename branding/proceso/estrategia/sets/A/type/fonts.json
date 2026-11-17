@@ -1,0 +1,37 @@
+{
+  "display": {
+    "family": "Bricolage Grotesque",
+    "file": "C:\\Users\\Aron\\.cache\\brand-identity\\fonts\\instances\\BricolageGrotesque-da650bf191d5e4a2.ttf",
+    "location": {
+      "wght": 800,
+      "opsz": 96
+    },
+    "weights": [
+      800
+    ],
+    "features": []
+  },
+  "text": {
+    "family": "Public Sans",
+    "file": "C:\\Users\\Aron\\.cache\\brand-identity\\fonts\\instances\\PublicSans-62f9605ba2a8f4d0.ttf",
+    "location": {
+      "wght": 400
+    },
+    "weights": [
+      400,
+      600
+    ],
+    "features": []
+  },
+  "mono": {
+    "family": "IBM Plex Mono",
+    "file": "C:\\Users\\Aron\\.cache\\brand-identity\\fonts\\google\\ofl\\ibmplexmono\\IBMPlexMono-Regular.ttf",
+    "location": {
+      "wght": 400
+    },
+    "weights": [
+      400
+    ],
+    "features": []
+  }
+}

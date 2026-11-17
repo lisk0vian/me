@@ -1,0 +1,25 @@
+{
+  "display": {
+    "family": "Fira Sans",
+    "file": "C:\\Users\\Aron\\.cache\\brand-identity\\fonts\\google\\ofl\\firasans\\FiraSans-Bold.ttf",
+    "location": {
+      "wght": 700
+    },
+    "weights": [
+      700
+    ],
+    "features": []
+  },
+  "text": {
+    "family": "Fira Sans",
+    "file": "C:\\Users\\Aron\\.cache\\brand-identity\\fonts\\google\\ofl\\firasans\\FiraSans-Regular.ttf",
+    "location": {
+      "wght": 400
+    },
+    "weights": [
+      400,
+      600
+    ],
+    "features": []
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "schema": "brand-identity/identity@1",
+  "brand": {
+    "name": "Jeremi Aron",
+    "tagline": "Full-stack developer building useful web apps.",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "numbers": false,
+    "doc_lang": "es",
+    "sector": "Desarrollo full-stack / software",
+    "copy": {
+      "sentence": {
+        "en": "I build useful web apps with JavaScript and TypeScript, and I'm open to remote and local full-stack roles.",
+        "es": "Construyo aplicaciones web útiles con JavaScript y TypeScript, y estoy abierto a roles full-stack remotos y locales."
+      },
+      "nav": [
+        "Work",
+        "About",
+        "Contact"
+      ],
+      "cta": "Get in touch"
+    }
+  },
+  "components": {
+    "logo": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    },
+    "type": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    },
+    "palette": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    }
+  },
+  "palette": "palette.json",
+  "set": {
+    "id": "B",
+    "name": "Prisma",
+    "recommended": false,
+    "mechanism": "El prisma: un haz que entra en un triángulo y sale como una línea de color; geometría óptica, grotesca limpia y un magenta de señal sobre carbón.",
+    "expression_move": "El triángulo sólido y el haz de magenta.",
+    "differs_by": "Las marcas de devs son corchetes o nodos; esto es geometría óptica, más de estudio que de terminal."
+  },
+  "axes": {
+    "warm_cool": 2,
+    "classic_contemporary": 2,
+    "quiet_loud": 0
+  },
+  "type": {
+    "pairing_mode": "single-family",
+    "display": {
+      "family": "Familjen Grotesk",
+      "source": "google",
+      "license": "OFL-1.1",
+      "weights": [
+        700
+      ],
+      "location": {
+        "wght": 700
+      },
+      "features": [],
+      "case": "as-is",
+      "tracking": 0,
+      "fallback": "system-ui, sans-serif",
+      "file": null
+    },
+    "text": {
+      "family": "Familjen Grotesk",
+      "source": "google",
+      "license": "OFL-1.1",
+      "weights": [
+        400,
+        600
+      ],
+      "location": {
+        "wght": 400
+      },
+      "features": [],
+      "case": "as-is",
+      "tracking": 0,
+      "fallback": "system-ui, sans-serif",
+      "file": null
+    },
+    "mono": null
+  },
+  "logo": {
+    "type": "symbol+wordmark",
+    "concept": "Un haz entra en un prisma y sale convertido en color: claridad a través de la estructura.",
+    "symbol": "logo/symbol.svg",
+    "wordmark": {
+      "text": "Jeremi Aron",
+      "role": "display",
+      "location": null,
+      "tracking": -15,
+      "case": "as-is"
+    },
+    "monogram": null,
+    "lockups": [
+      "horizontal",
+      "stacked"
+    ],
+    "colors": {
+      "prism": "primary",
+      "beam": "accent",
+      "wordmark": "text"
+    },
+    "tags": [
+      "abstract-geometric"
+    ],
+    "clear_space": {
+      "unit": "cap-height",
+      "multiple": 1,
+      "inferred": true
+    },
+    "min_size": {
+      "px": 22,
+      "mm": 8
+    }
+  },
+  "palette_build": {
+    "strategy": null,
+    "accent": null,
+    "light_bg": "#F2F5F6",
+    "dark_bg": null,
+    "neutral_tint": null,
+    "neutral_chroma": null,
+    "extra": []
+  },
+  "defaults_used": [],
+  "rationale": [
+    {
+      "claim": "Grotesca única con pesos: un sistema limpio y óptico, coherente con el prisma.",
+      "evidence": "judgement",
+      "source": "brief"
+    },
+    {
+      "claim": "Carbón y blanco frío con un magenta de señal: un acento poco común en el sector dev.",
+      "evidence": "judgement",
+      "source": "brief"
+    }
+  ],
+  "audit": {
+    "schema": "brand-identity/audit@1",
+    "passed": true,
+    "counts": {
+      "gate": 0,
+      "warn": 2,
+      "info": 7
+    },
+    "findings": [
+      {
+        "id": "palette.contrast.light.link-on-text",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 2.59,
+        "threshold": 3.0,
+        "message": "light: link #b60c5a on text #1c1c1c is 2.59:1, below 3.0:1 (links distinguishable from body text without underline (WCAG G183); WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.light.link",
+          "from": "#b60c5a",
+          "to": "#d6246e",
+          "how": "use accent-600 (same scale)",
+          "ratio_after": 3.52
+        },
+        "roles": [
+          "light.link",
+          "light.text"
+        ]
+      },
+      {
+        "id": "palette.structure.mid-lightness.brand-2",
+        "component": "palette",
+        "severity": "warn",
+        "measured": [
+          4.84,
+          4.34
+        ],
+        "threshold": 5.0,
+        "message": "#d6246e is a mid-lightness trap: white 4.84:1, black 4.34:1; body text on it needs a darker or lighter derivative",
+        "suggested_fix": {
+          "change": "brand-2",
+          "how": "keep the brand colour for large areas/logo; put text on a derivative step of its scale"
+        },
+        "roles": [
+          "brand-2"
+        ]
+      },
+      {
+        "id": "palette.contrast.light.border-on-background",
+        "component": "palette",
+        "severity": "info",
+        "measured": 1.36,
+        "threshold": 3.0,
+        "message": "light: border #ced5d7 on background #f2f5f6 is 1.36:1, below 3.0:1 (borders: dividers are exempt, input outlines need 3:1; WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.light.border",
+          "from": "#ced5d7",
+          "to": "#888e90",
+          "how": "darken by OKLCH L -0.22, same hue",
+          "ratio_after": 3.03
+        },
+        "roles": [
+          "light.border",
+          "light.background"
+        ]
+      },
+      {
+        "id": "palette.contrast.dark.link-on-text",
+        "component": "palette",
+        "severity": "info",
+        "measured": 2.92,
+        "threshold": 3.0,
+        "message": "dark: link #f3558b on text #f3f3f3 is 2.92:1, below 3.0:1 (underline links in dark mode (WCAG G183: without underline a link needs 3:1 against body text); WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.dark.link",
+          "from": "#f3558b",
+          "to": "#d6246e",
+          "how": "use accent-600 (same scale)",
+          "ratio_after": 4.36
+        },
+        "roles": [
+          "dark.link",
+          "dark.text"
+        ]
+      },
+      {
+        "id": "palette.contrast.dark.border-on-background",
+        "component": "palette",
+        "severity": "info",
+        "measured": 1.88,
+        "threshold": 3.0,
+        "message": "dark: border #414141 on background #0f0f0f is 1.88:1, below 3.0:1 (borders: dividers are exempt, input outlines need 3:1; WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.dark.border",
+          "from": "#414141",
+          "to": "#737373",
+          "how": "use neutral-500 (same scale)",
+          "ratio_after": 4.04
+        },
+        "roles": [
+          "dark.border",
+          "dark.background"
+        ]
+      },
+      {
+        "id": "palette.gamut.brand-2",
+        "component": "palette",
+        "severity": "info",
+        "measured": 0.92,
+        "threshold": 0.9,
+        "message": "#d6246e sits at the sRGB gamut edge (92% of max chroma); vivid colours like this often fall outside CMYK process gamut: specify Lab D50 + tolerance, check with the printer, consider a spot colour",
+        "suggested_fix": null,
+        "roles": [
+          "brand-2"
+        ]
+      },
+      {
+        "id": "palette.harmony.primary-accent",
+        "component": "palette",
+        "severity": "info",
+        "measured": -0.63,
+        "threshold": -0.3,
+        "message": "Ou-Luo two-colour model scores #16181d + #d6246e at -0.63 (negative = less harmonious on a grey CRT test, no context): model signal only; the pairing table in references/pairing.md takes precedence",
+        "suggested_fix": null,
+        "roles": [
+          "light.primary",
+          "light.accent"
+        ]
+      },
+      {
+        "id": "type.display+text.coverage.en_Latn.extended",
+        "component": "type",
+        "severity": "info",
+        "measured": "101/102",
+        "threshold": "100% auxiliary + punctuation",
+        "message": "Familjen Grotesk lacks English auxiliary/punctuation characters: ʻ",
+        "suggested_fix": "fine if the brand never writes them (loanwords, names); else another family"
+      },
+      {
+        "id": "type.display+text.web-weight",
+        "component": "type",
+        "severity": "info",
+        "measured": 15,
+        "threshold": null,
+        "message": "Familjen Grotesk: ~15 KB WOFF2 for the brief's characters (one variable file, all weights; estimate)",
+        "suggested_fix": null
+      }
+    ],
+    "defaults": {
+      "matched": []
+    }
+  },
+  "derived": [
+    {
+      "file": "card.png",
+      "requires": [
+        "logo",
+        "type",
+        "palette"
+      ],
+      "inputs_sha256": "a75e785eb02aff34d25596b7a20ae9ce5cf7621da00edc0d7ce63ee702cf8367"
+    }
+  ]
+}

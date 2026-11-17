@@ -1,0 +1,466 @@
+{
+  "schema": "brand-identity/sets@1",
+  "sets": [
+    {
+      "identity": {
+        "set": {
+          "id": "A",
+          "name": "Firma JA",
+          "recommended": true,
+          "mechanism": "La firma en un sello: un monograma JA recortado en una placa de tinta con esquina cortada y una barra de cobalto; la grotesca de carácter y un mono para etiquetas.",
+          "expression_move": "La placa recortada con el monograma JA y la barra de cobalto.",
+          "differs_by": "Los devs usan corchetes o terminal; esto es un sello personal tipográfico con una esquina cortada y una firma de cobalto."
+        },
+        "axes": {
+          "warm_cool": 1,
+          "classic_contemporary": 0,
+          "quiet_loud": 2
+        },
+        "type": {
+          "pairing_mode": "contrast",
+          "display": {
+            "family": "Bricolage Grotesque",
+            "source": "google",
+            "license": "OFL-1.1",
+            "weights": [
+              800
+            ],
+            "location": {
+              "wght": 800,
+              "opsz": 96
+            },
+            "features": [],
+            "case": "as-is",
+            "tracking": -10,
+            "fallback": "system-ui, sans-serif",
+            "file": null
+          },
+          "text": {
+            "family": "Public Sans",
+            "source": "google",
+            "license": "OFL-1.1",
+            "weights": [
+              400,
+              600
+            ],
+            "location": {
+              "wght": 400
+            },
+            "features": [],
+            "case": "as-is",
+            "tracking": 0,
+            "fallback": "system-ui, sans-serif",
+            "file": null
+          },
+          "mono": {
+            "family": "IBM Plex Mono",
+            "source": "google",
+            "license": "OFL-1.1",
+            "weights": [
+              400
+            ],
+            "location": {
+              "wght": 400
+            },
+            "features": [],
+            "case": "as-is",
+            "tracking": 0,
+            "fallback": "ui-monospace, monospace",
+            "file": null
+          }
+        },
+        "logo": {
+          "type": "symbol+wordmark",
+          "concept": "Un sello personal: la placa recortada con el monograma JA y una barra de cobalto, la firma de la marca.",
+          "symbol": "logo/symbol.svg",
+          "wordmark": {
+            "text": "Jeremi Aron",
+            "role": "display",
+            "location": null,
+            "tracking": -10,
+            "case": "as-is"
+          },
+          "monogram": null,
+          "lockups": [
+            "horizontal",
+            "stacked"
+          ],
+          "colors": {
+            "tile": "primary",
+            "monogram": "primary",
+            "link": "primary",
+            "wordmark": "text"
+          },
+          "tags": [
+            "abstract-geometric",
+            "letterform"
+          ],
+          "clear_space": {
+            "unit": "cap-height",
+            "multiple": 1,
+            "inferred": true
+          },
+          "min_size": {
+            "px": 20,
+            "mm": 7
+          }
+        },
+        "palette_build": {
+          "strategy": null,
+          "accent": null,
+          "light_bg": "#F2F4F5",
+          "dark_bg": null,
+          "neutral_tint": null,
+          "neutral_chroma": null,
+          "extra": [
+            "#DCE2FF:Cobalt Tint:superficies suaves",
+            "#E9E2D6:Sand:superficies secundarias"
+          ]
+        },
+        "defaults_used": [],
+        "rationale": [
+          {
+            "claim": "El monograma en una placa recortada convierte dos letras en un sello reconocible, no en tipografía suelta.",
+            "evidence": "judgement",
+            "source": "brief"
+          },
+          {
+            "claim": "Un cobalto de firma con un cobalto profundo y arena: el sistema gana profundidad sin salir de la familia fría.",
+            "evidence": "judgement",
+            "source": "brief"
+          },
+          {
+            "claim": "El mono de etiquetas añade una capa técnica y editorial sin competir con el display.",
+            "evidence": "judgement",
+            "source": "brief"
+          }
+        ],
+        "card": {
+          "ground": "light"
+        }
+      },
+      "palette": {
+        "schema": "brand-identity/palette@1",
+        "name": "Firma JA",
+        "direction": "Tinta y hueso frío con cobalto, cobalto profundo y un toque de arena; un sistema de firma en capas.",
+        "brand": [
+          {
+            "id": "brand-1",
+            "name": "Ink",
+            "hex": "#14161A",
+            "source": "chosen",
+            "locked": true,
+            "usage": "texto, placa"
+          },
+          {
+            "id": "brand-2",
+            "name": "Cobalt",
+            "hex": "#2B4BF2",
+            "source": "chosen",
+            "locked": true,
+            "usage": "firma, acentos"
+          }
+        ],
+        "feels": [
+          "directo",
+          "personal",
+          "sofisticado"
+        ]
+      },
+      "symbol_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon id=\"tile\" points=\"8,8 92,8 92,64 64,92 8,92\" data-color=\"primary\"/><path id=\"monogram\" data-glyphs=\"JA\" data-op=\"subtract\" data-cap=\"42\" data-x=\"49\" data-baseline=\"68\" data-anchor=\"middle\" data-color=\"primary\"/><rect id=\"link\" x=\"8\" y=\"80\" width=\"56\" height=\"8\" data-op=\"subtract\" data-color=\"primary\"/></svg>",
+      "symbol_small_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon id=\"tile\" points=\"6,6 94,6 94,62 62,94 6,94\" data-color=\"primary\"/><path id=\"monogram\" data-glyphs=\"J\" data-op=\"subtract\" data-cap=\"62\" data-x=\"46\" data-baseline=\"84\" data-anchor=\"middle\" data-color=\"primary\"/></svg>",
+      "wordmark_detail_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\"><rect id=\"period\" x=\"800\" y=\"78\" width=\"24\" height=\"22\" data-color=\"accent\"/></svg>"
+    },
+    {
+      "identity": {
+        "set": {
+          "id": "B",
+          "name": "Prisma",
+          "recommended": false,
+          "mechanism": "El prisma: un haz que entra en un triángulo y sale como una línea de color; geometría óptica, grotesca limpia y un magenta de señal sobre carbón.",
+          "expression_move": "El triángulo sólido y el haz de magenta.",
+          "differs_by": "Las marcas de devs son corchetes o nodos; esto es geometría óptica, más de estudio que de terminal."
+        },
+        "axes": {
+          "warm_cool": 2,
+          "classic_contemporary": 2,
+          "quiet_loud": 0
+        },
+        "type": {
+          "pairing_mode": "single-family",
+          "display": {
+            "family": "Familjen Grotesk",
+            "source": "google",
+            "license": "OFL-1.1",
+            "weights": [
+              700
+            ],
+            "location": {
+              "wght": 700
+            },
+            "features": [],
+            "case": "as-is",
+            "tracking": 0,
+            "fallback": "system-ui, sans-serif",
+            "file": null
+          },
+          "text": {
+            "family": "Familjen Grotesk",
+            "source": "google",
+            "license": "OFL-1.1",
+            "weights": [
+              400,
+              600
+            ],
+            "location": {
+              "wght": 400
+            },
+            "features": [],
+            "case": "as-is",
+            "tracking": 0,
+            "fallback": "system-ui, sans-serif",
+            "file": null
+          },
+          "mono": null
+        },
+        "logo": {
+          "type": "symbol+wordmark",
+          "concept": "Un haz entra en un prisma y sale convertido en color: claridad a través de la estructura.",
+          "symbol": "logo/symbol.svg",
+          "wordmark": {
+            "text": "Jeremi Aron",
+            "role": "display",
+            "location": null,
+            "tracking": -15,
+            "case": "as-is"
+          },
+          "monogram": null,
+          "lockups": [
+            "horizontal",
+            "stacked"
+          ],
+          "colors": {
+            "prism": "primary",
+            "beam": "accent",
+            "wordmark": "text"
+          },
+          "tags": [
+            "abstract-geometric"
+          ],
+          "clear_space": {
+            "unit": "cap-height",
+            "multiple": 1,
+            "inferred": true
+          },
+          "min_size": {
+            "px": 22,
+            "mm": 8
+          }
+        },
+        "palette_build": {
+          "strategy": null,
+          "accent": null,
+          "light_bg": "#F2F5F6",
+          "dark_bg": null,
+          "neutral_tint": null,
+          "neutral_chroma": null,
+          "extra": []
+        },
+        "defaults_used": [],
+        "rationale": [
+          {
+            "claim": "Grotesca única con pesos: un sistema limpio y óptico, coherente con el prisma.",
+            "evidence": "judgement",
+            "source": "brief"
+          },
+          {
+            "claim": "Carbón y blanco frío con un magenta de señal: un acento poco común en el sector dev.",
+            "evidence": "judgement",
+            "source": "brief"
+          }
+        ]
+      },
+      "palette": {
+        "schema": "brand-identity/palette@1",
+        "name": "Prisma",
+        "direction": "Carbón y blanco frío con un magenta de prisma.",
+        "brand": [
+          {
+            "id": "brand-1",
+            "name": "Charcoal",
+            "hex": "#16181D",
+            "source": "chosen",
+            "locked": true,
+            "usage": "texto, prisma"
+          },
+          {
+            "id": "brand-2",
+            "name": "Magenta",
+            "hex": "#D6246E",
+            "source": "chosen",
+            "locked": true,
+            "usage": "haz, acentos"
+          }
+        ],
+        "feels": [
+          "preciso",
+          "óptico",
+          "contemporáneo"
+        ]
+      },
+      "symbol_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><rect id=\"beam-in\" x=\"4\" y=\"46\" width=\"28\" height=\"8\" data-color=\"accent\"/><polygon id=\"prism\" points=\"32,14 32,86 84,50\" data-color=\"primary\"/><rect id=\"beam-out\" x=\"84\" y=\"46\" width=\"12\" height=\"8\" data-color=\"accent\"/></svg>",
+      "symbol_small_svg": null,
+      "wordmark_detail_svg": null
+    },
+    {
+      "identity": {
+        "set": {
+          "id": "C",
+          "name": "Quipu",
+          "recommended": false,
+          "mechanism": "El quipu: cuerdas y nudos como sistema de registro; el mark es tres cuerdas con nudos, la humanista Fira y tintes naturales sobre verde profundo.",
+          "expression_move": "Las cuerdas anudadas son lo único que se recuerda.",
+          "differs_by": "Las marcas de devs son técnico-frías; esta trae un sistema de registro andino, humano y artesanal, sin bandera ni montaña."
+        },
+        "axes": {
+          "warm_cool": -1,
+          "classic_contemporary": -1,
+          "friend_authority": -1,
+          "quiet_loud": -2
+        },
+        "type": {
+          "pairing_mode": "single-family",
+          "display": {
+            "family": "Fira Sans",
+            "source": "google",
+            "license": "OFL-1.1",
+            "weights": [
+              700
+            ],
+            "location": {
+              "wght": 700
+            },
+            "features": [],
+            "case": "as-is",
+            "tracking": 0,
+            "fallback": "system-ui, sans-serif",
+            "file": null
+          },
+          "text": {
+            "family": "Fira Sans",
+            "source": "google",
+            "license": "OFL-1.1",
+            "weights": [
+              400,
+              600
+            ],
+            "location": {
+              "wght": 400
+            },
+            "features": [],
+            "case": "as-is",
+            "tracking": 0,
+            "fallback": "system-ui, sans-serif",
+            "file": null
+          },
+          "mono": null
+        },
+        "logo": {
+          "type": "symbol+wordmark",
+          "concept": "Tres cuerdas con nudos: un sistema de registro andino reducido a lo esencial.",
+          "symbol": "logo/symbol.svg",
+          "wordmark": {
+            "text": "Jeremi Aron",
+            "role": "display",
+            "location": null,
+            "tracking": -10,
+            "case": "as-is"
+          },
+          "monogram": null,
+          "lockups": [
+            "horizontal",
+            "stacked"
+          ],
+          "colors": {
+            "cords": "primary",
+            "knots": "accent",
+            "wordmark": "text"
+          },
+          "tags": [
+            "abstract-geometric"
+          ],
+          "clear_space": {
+            "unit": "cap-height",
+            "multiple": 1,
+            "inferred": true
+          },
+          "min_size": {
+            "px": 22,
+            "mm": 8
+          }
+        },
+        "palette_build": {
+          "strategy": null,
+          "accent": null,
+          "light_bg": "#E8E9E4",
+          "dark_bg": null,
+          "neutral_tint": null,
+          "neutral_chroma": null,
+          "extra": []
+        },
+        "card": {
+          "ground": "dark"
+        },
+        "defaults_used": [
+          {
+            "id": "terracotta-clay",
+            "why": "El rojo es cochinilla/madder de tintes andinos y se usa solo en los nudos, no como superficie."
+          }
+        ],
+        "rationale": [
+          {
+            "claim": "Fira humanista y cuerdas: un tono humano y artesanal que se aparta del dev frío.",
+            "evidence": "judgement",
+            "source": "brief"
+          },
+          {
+            "claim": "Verde profundo y hueso con un rojo de cochinilla: raíz local sin bandera ni montaña literal.",
+            "evidence": "judgement",
+            "source": "brief"
+          }
+        ]
+      },
+      "palette": {
+        "schema": "brand-identity/palette@1",
+        "name": "Quipu",
+        "direction": "Verde profundo y hueso con un rojo de cochinilla; cuerdas y nudos.",
+        "brand": [
+          {
+            "id": "brand-1",
+            "name": "Deep Green",
+            "hex": "#16302A",
+            "source": "chosen",
+            "locked": true,
+            "usage": "texto, cuerdas"
+          },
+          {
+            "id": "brand-2",
+            "name": "Madder",
+            "hex": "#B4472F",
+            "source": "chosen",
+            "locked": true,
+            "usage": "nudos, acentos"
+          }
+        ],
+        "feels": [
+          "humano",
+          "artesanal",
+          "arraigado"
+        ]
+      },
+      "symbol_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><g id=\"cords\" data-color=\"primary\"><rect id=\"cord-1\" x=\"19\" y=\"12\" width=\"10\" height=\"76\"/><rect id=\"cord-2\" x=\"45\" y=\"20\" width=\"10\" height=\"72\"/><rect id=\"cord-3\" x=\"71\" y=\"8\" width=\"10\" height=\"80\"/></g><g id=\"knots\" data-color=\"accent\"><rect id=\"knot-1\" x=\"14\" y=\"30\" width=\"20\" height=\"12\"/><rect id=\"knot-2\" x=\"40\" y=\"56\" width=\"20\" height=\"12\"/><rect id=\"knot-3\" x=\"66\" y=\"24\" width=\"20\" height=\"12\"/><rect id=\"knot-4\" x=\"40\" y=\"74\" width=\"20\" height=\"12\"/></g></svg>",
+      "symbol_small_svg": null,
+      "wordmark_detail_svg": null
+    }
+  ]
+}

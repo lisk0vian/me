@@ -1,0 +1,9 @@
+# local working copies and tools, not part of the repo
+/brand/
+/github/
+.pnpm-store/
+.cache/
+__pycache__/
+*.onnx
+Thumbs.db
+desktop.ini

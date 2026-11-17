@@ -1,0 +1,417 @@
+{
+  "schema": "brand-identity/identity@1",
+  "brand": {
+    "name": "Jeremi Aron",
+    "tagline": "Full-stack developer building useful web apps.",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "numbers": false,
+    "doc_lang": "es",
+    "sector": "Desarrollo full-stack / software",
+    "copy": {
+      "sentence": {
+        "en": "I build useful web apps with JavaScript and TypeScript, and I'm open to remote and local full-stack roles.",
+        "es": "Construyo aplicaciones web útiles con JavaScript y TypeScript, y estoy abierto a roles full-stack remotos y locales."
+      },
+      "nav": [
+        "Work",
+        "About",
+        "Contact"
+      ],
+      "cta": "Get in touch"
+    }
+  },
+  "components": {
+    "logo": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    },
+    "type": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    },
+    "palette": {
+      "mode": "new",
+      "status": "proposed",
+      "source": null,
+      "sha256": null
+    }
+  },
+  "palette": "palette.json",
+  "set": {
+    "id": "A",
+    "name": "Firma JA",
+    "recommended": true,
+    "mechanism": "La firma en un sello: un monograma JA recortado en una placa de tinta con esquina cortada y una barra de cobalto; la grotesca de carácter y un mono para etiquetas.",
+    "expression_move": "La placa recortada con el monograma JA y la barra de cobalto.",
+    "differs_by": "Los devs usan corchetes o terminal; esto es un sello personal tipográfico con una esquina cortada y una firma de cobalto."
+  },
+  "axes": {
+    "warm_cool": 1,
+    "classic_contemporary": 0,
+    "quiet_loud": 2
+  },
+  "type": {
+    "pairing_mode": "contrast",
+    "display": {
+      "family": "Bricolage Grotesque",
+      "source": "google",
+      "license": "OFL-1.1",
+      "weights": [
+        800
+      ],
+      "location": {
+        "wght": 800,
+        "opsz": 96
+      },
+      "features": [],
+      "case": "as-is",
+      "tracking": -10,
+      "fallback": "system-ui, sans-serif",
+      "file": null
+    },
+    "text": {
+      "family": "Public Sans",
+      "source": "google",
+      "license": "OFL-1.1",
+      "weights": [
+        400,
+        600
+      ],
+      "location": {
+        "wght": 400
+      },
+      "features": [],
+      "case": "as-is",
+      "tracking": 0,
+      "fallback": "system-ui, sans-serif",
+      "file": null
+    },
+    "mono": {
+      "family": "IBM Plex Mono",
+      "source": "google",
+      "license": "OFL-1.1",
+      "weights": [
+        400
+      ],
+      "location": {
+        "wght": 400
+      },
+      "features": [],
+      "case": "as-is",
+      "tracking": 0,
+      "fallback": "ui-monospace, monospace",
+      "file": null
+    }
+  },
+  "logo": {
+    "type": "symbol+wordmark",
+    "concept": "Un sello personal: la placa recortada con el monograma JA y una barra de cobalto, la firma de la marca.",
+    "symbol": "logo/symbol.svg",
+    "wordmark": {
+      "text": "Jeremi Aron",
+      "role": "display",
+      "location": null,
+      "tracking": -10,
+      "case": "as-is"
+    },
+    "monogram": null,
+    "lockups": [
+      "horizontal",
+      "stacked"
+    ],
+    "colors": {
+      "tile": "primary",
+      "monogram": "primary",
+      "link": "primary",
+      "wordmark": "text"
+    },
+    "tags": [
+      "abstract-geometric",
+      "letterform"
+    ],
+    "clear_space": {
+      "unit": "cap-height",
+      "multiple": 1,
+      "inferred": true
+    },
+    "min_size": {
+      "px": 20,
+      "mm": 7
+    }
+  },
+  "palette_build": {
+    "strategy": null,
+    "accent": null,
+    "light_bg": "#F2F4F5",
+    "dark_bg": null,
+    "neutral_tint": null,
+    "neutral_chroma": null,
+    "extra": [
+      "#DCE2FF:Cobalt Tint:superficies suaves",
+      "#E9E2D6:Sand:superficies secundarias"
+    ]
+  },
+  "defaults_used": [],
+  "rationale": [
+    {
+      "claim": "El monograma en una placa recortada convierte dos letras en un sello reconocible, no en tipografía suelta.",
+      "evidence": "judgement",
+      "source": "brief"
+    },
+    {
+      "claim": "Un cobalto de firma con un cobalto profundo y arena: el sistema gana profundidad sin salir de la familia fría.",
+      "evidence": "judgement",
+      "source": "brief"
+    },
+    {
+      "claim": "El mono de etiquetas añade una capa técnica y editorial sin competir con el display.",
+      "evidence": "judgement",
+      "source": "brief"
+    }
+  ],
+  "audit": {
+    "schema": "brand-identity/audit@1",
+    "passed": true,
+    "counts": {
+      "gate": 0,
+      "warn": 3,
+      "info": 13
+    },
+    "findings": [
+      {
+        "id": "palette.contrast.light.link-on-text",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 2.75,
+        "threshold": 3.0,
+        "message": "light: link #2b4bf2 on text #1c1c1c is 2.75:1, below 3.0:1 (links distinguishable from body text without underline (WCAG G183); WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.light.link",
+          "from": "#2b4bf2",
+          "to": "#446dfc",
+          "how": "use accent-600 (same scale)",
+          "ratio_after": 3.93
+        },
+        "roles": [
+          "light.link",
+          "light.text"
+        ]
+      },
+      {
+        "id": "palette.extended.ui.light.ext-1",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 1.16,
+        "threshold": 3.0,
+        "message": "light: ext-1 #dce2ff is 1.16:1 on the light background #f2f4f5; as a stripe, chart series or thin line it needs 3:1 (WCAG 1.4.11)",
+        "suggested_fix": {
+          "change": "extended.ext-1",
+          "from": "#dce2ff",
+          "to": "#787e9c",
+          "how": "use ext-1-600 for stripes, chart series and thin lines"
+        },
+        "roles": [
+          "ext-1"
+        ]
+      },
+      {
+        "id": "palette.extended.ui.light.ext-2",
+        "component": "palette",
+        "severity": "warn",
+        "measured": 1.17,
+        "threshold": 3.0,
+        "message": "light: ext-2 #e9e2d6 is 1.17:1 on the light background #f2f4f5; as a stripe, chart series or thin line it needs 3:1 (WCAG 1.4.11)",
+        "suggested_fix": {
+          "change": "extended.ext-2",
+          "from": "#e9e2d6",
+          "to": "#867f72",
+          "how": "use ext-2-600 for stripes, chart series and thin lines"
+        },
+        "roles": [
+          "ext-2"
+        ]
+      },
+      {
+        "id": "palette.contrast.light.border-on-background",
+        "component": "palette",
+        "severity": "info",
+        "measured": 1.36,
+        "threshold": 3.0,
+        "message": "light: border #ced4d7 on background #f2f4f5 is 1.36:1, below 3.0:1 (borders: dividers are exempt, input outlines need 3:1; WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.light.border",
+          "from": "#ced4d7",
+          "to": "#888d90",
+          "how": "darken by OKLCH L -0.22, same hue",
+          "ratio_after": 3.04
+        },
+        "roles": [
+          "light.border",
+          "light.background"
+        ]
+      },
+      {
+        "id": "palette.contrast.dark.link-on-text",
+        "component": "palette",
+        "severity": "info",
+        "measured": 2.61,
+        "threshold": 3.0,
+        "message": "dark: link #6d93fd on text #f3f3f3 is 2.61:1, below 3.0:1 (underline links in dark mode (WCAG G183: without underline a link needs 3:1 against body text); WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.dark.link",
+          "from": "#6d93fd",
+          "to": "#446dfc",
+          "how": "use accent-600 (same scale)",
+          "ratio_after": 3.91
+        },
+        "roles": [
+          "dark.link",
+          "dark.text"
+        ]
+      },
+      {
+        "id": "palette.contrast.dark.border-on-background",
+        "component": "palette",
+        "severity": "info",
+        "measured": 1.88,
+        "threshold": 3.0,
+        "message": "dark: border #414141 on background #0f0f0f is 1.88:1, below 3.0:1 (borders: dividers are exempt, input outlines need 3:1; WCAG 2, no rounding)",
+        "suggested_fix": {
+          "change": "modes.dark.border",
+          "from": "#414141",
+          "to": "#737373",
+          "how": "use neutral-500 (same scale)",
+          "ratio_after": 4.04
+        },
+        "roles": [
+          "dark.border",
+          "dark.background"
+        ]
+      },
+      {
+        "id": "palette.gamut.brand-2",
+        "component": "palette",
+        "severity": "info",
+        "measured": 0.91,
+        "threshold": 0.9,
+        "message": "#2b4bf2 sits at the sRGB gamut edge (91% of max chroma); vivid colours like this often fall outside CMYK process gamut: specify Lab D50 + tolerance, check with the printer, consider a spot colour",
+        "suggested_fix": null,
+        "roles": [
+          "brand-2"
+        ]
+      },
+      {
+        "id": "palette.harmony.primary-accent",
+        "component": "palette",
+        "severity": "info",
+        "measured": -0.44,
+        "threshold": -0.3,
+        "message": "Ou-Luo two-colour model scores #14161a + #2b4bf2 at -0.44 (negative = less harmonious on a grey CRT test, no context): model signal only; the pairing table in references/pairing.md takes precedence",
+        "suggested_fix": null,
+        "roles": [
+          "light.primary",
+          "light.accent"
+        ]
+      },
+      {
+        "id": "type.display.coverage.en_Latn.extended",
+        "component": "type",
+        "severity": "info",
+        "measured": "95/102",
+        "threshold": "100% auxiliary + punctuation",
+        "message": "Bricolage Grotesque lacks English auxiliary/punctuation characters: Ĕ Ĭ Ŏ ĕ ĭ ŏ ʻ",
+        "suggested_fix": "fine if the brand never writes them (loanwords, names); else another family"
+      },
+      {
+        "id": "type.display.coverage.es_Latn.extended",
+        "component": "type",
+        "severity": "info",
+        "measured": "90/96",
+        "threshold": "100% auxiliary + punctuation",
+        "message": "Bricolage Grotesque lacks Spanish auxiliary/punctuation characters: Ĕ Ĭ Ŏ ĕ ĭ ŏ",
+        "suggested_fix": "fine if the brand never writes them (loanwords, names); else another family"
+      },
+      {
+        "id": "type.display.confusables",
+        "component": "type",
+        "severity": "info",
+        "measured": 0.935,
+        "threshold": "0.9 (heuristic, uncalibrated)",
+        "message": "Bricolage Grotesque: I/l look alike at small sizes (IoU 0.94 at 48 px)",
+        "suggested_fix": "no ss/cv alternates; choose another face for small text and data"
+      },
+      {
+        "id": "type.display.web-weight",
+        "component": "type",
+        "severity": "info",
+        "measured": 132,
+        "threshold": null,
+        "message": "Bricolage Grotesque: ~132 KB WOFF2 for the brief's characters (one variable file, all weights; estimate)",
+        "suggested_fix": null
+      },
+      {
+        "id": "type.text.coverage.gf-latin-core",
+        "component": "type",
+        "severity": "info",
+        "measured": "318/319",
+        "threshold": "GF Latin Core",
+        "message": "Public Sans misses 1/319 GF Latin Core codepoints (reach beyond the brief's languages)",
+        "suggested_fix": "matters only if the brand may add more Latin-script languages"
+      },
+      {
+        "id": "type.text.web-weight",
+        "component": "type",
+        "severity": "info",
+        "measured": 22,
+        "threshold": null,
+        "message": "Public Sans: ~22 KB WOFF2 for the brief's characters (one variable file, all weights; estimate)",
+        "suggested_fix": null
+      },
+      {
+        "id": "type.mono.web-weight",
+        "component": "type",
+        "severity": "info",
+        "measured": 13,
+        "threshold": null,
+        "message": "IBM Plex Mono: ~13 KB WOFF2 for the brief's characters (per weight file; estimate)",
+        "suggested_fix": null
+      },
+      {
+        "id": "logo.thin-feature",
+        "component": "logo",
+        "severity": "info",
+        "measured": {
+          "stroke_px2": 9.2,
+          "gap_px2": 0.08
+        },
+        "threshold": ">= 1 px = 5.0 units (heuristic, uncalibrated)",
+        "message": "symbol at 20 px (min size): strokes/gaps thinner than 1 px (lost 9.2 px², clogged 0.08 px²); symbol-small.svg covers small sizes",
+        "suggested_fix": "add symbol_small_svg for small sizes, or raise logo.min_size.px (or thicken the thin part / widen the gap)"
+      }
+    ],
+    "defaults": {
+      "matched": []
+    }
+  },
+  "derived": [
+    {
+      "file": "card.png",
+      "requires": [
+        "logo",
+        "type",
+        "palette"
+      ],
+      "inputs_sha256": "8cf72bbe341d20c53f558564895688a7f7e60db834f5bf7a0e353cb8151d41c5"
+    }
+  ],
+  "card": {
+    "ground": "light"
+  }
+}
