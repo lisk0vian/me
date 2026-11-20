@@ -7,3 +7,10 @@ __pycache__/
 *.onnx
 Thumbs.db
 desktop.ini
+
+# CV: el teléfono y los PDF que lo llevan no se suben (repo público)
+/cv/telefono.txt
+/cv/privado/
+
+# Configuración local de Claude Code
+/.claude/
