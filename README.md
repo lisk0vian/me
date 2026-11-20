@@ -9,3 +9,4 @@ Todo lo relacionado conmigo, en un solo lugar.
 | Carpeta | Qué hay |
 |---|---|
 | [`branding/`](branding/) | Marca personal: logo, colores, tipografía, banner y foto de LinkedIn, y el proceso de diseño |
+| [`cv/`](cv/) | CV para ATS: Full Stack/Backend y Datos/ML, en español e inglés (PDF listos en `cv/pdf/`) |
